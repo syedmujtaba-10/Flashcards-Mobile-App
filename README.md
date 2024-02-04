@@ -40,6 +40,7 @@ The quiz page allows the user to move through all the flashcards in the currentl
 
 The flashcards are randomly shuffled upon arriving at the quiz page, and both forward and backward motion through the shuffled cards is possible (though the order of the cards will not change so long as quiz mode is not exited).
 
+
 #### Responsiveness
 
 The app is responsive to changes in screen size. 
@@ -57,6 +58,11 @@ I have included the following packages in the `pubspec.yaml` file:
 #### Database
 
 I used the [`sqflite`](https://pub.dev/packages/sqflite) package to persist the data to a local SQLite database. I maintained a separate table for decks and cards, linked by a foreign key. Used `path_provider` and `path` to correctly place the database file.
+
 #### Managing asynchronous operations
 
 The app does not cause the UI to block while performing any asynchronous operations. This includes database operations, which should be performed asynchronously. Used `FutureProvider`, `FutureBuilder`to manage asynchronous operations.
+
+#### Video Demonstration
+
+https://github.com/syedmujtaba-10/Flashcards-Mobile-App/assets/84411036/60cf0fa1-ddfd-490f-9361-d781057e7e5c
