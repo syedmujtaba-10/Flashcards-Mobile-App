@@ -2,17 +2,15 @@ I have implemented my app and database on an android device.
 
 I have added an extra button in the entry page that clears the database. Make sure to use it when you clear all the decks.
 
+# Flashcards
 
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12475079&assignment_repo_type=AssignmentRepo)
-# CS 442 MP3: Flashcards
-
-## 1. Overview
+## Overview
 
 Implementing a multi-page application that allows users to create, edit, and manage decks of two-sided flashcards (with nominal “questions” and “answers” on the two sides), and to run quizzes using cards drawn from a chosen deck.
 
 Deck and flashcard information will be persisted to a local database, and the user interface is responsive to changes in screen size.
 
-### 2.1 Feature overview
+### Feature overview
 
 The application supports:
 
@@ -56,7 +54,7 @@ I have included the following packages in the `pubspec.yaml` file:
 - [`path_provider`](https://pub.dev/packages/path_provider): provides a platform-agnostic way to access commonly used locations on the filesystem
 - [`path`](https://pub.dev/packages/path): provides common operations for manipulating paths
 
-#### 2.3.2 Database
+#### Database
 
 I used the [`sqflite`](https://pub.dev/packages/sqflite) package to persist the data to a local SQLite database. I maintained a separate table for decks and cards, linked by a foreign key. Used `path_provider` and `path` to correctly place the database file.
 #### Managing asynchronous operations
