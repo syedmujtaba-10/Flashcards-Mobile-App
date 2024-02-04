@@ -1,6 +1,3 @@
-I have implemented my app and database on an android device.
-
-I have added an extra button in the entry page that clears the database. Make sure to use it when you clear all the decks.
 
 # Flashcards
 
