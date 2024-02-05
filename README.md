@@ -1,7 +1,6 @@
 
 # Flashcards
 
-## Overview
 
 Implementing a multi-page application that allows users to create, edit, and manage decks of two-sided flashcards (with nominal “questions” and “answers” on the two sides), and to run quizzes using cards drawn from a chosen deck.
 
